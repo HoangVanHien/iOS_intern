@@ -94,7 +94,7 @@
                         <outlet property="falseButton" destination="tbn-vQ-GyC" id="eC1-SM-hjz"/>
                         <outlet property="progressBar" destination="TXm-qh-7Xg" id="Pr0-ev-1qy"/>
                         <outlet property="questionLabel" destination="rSI-li-mhO" id="GEv-wz-LUl"/>
-                        <outlet property="scoreLabel" destination="rSI-li-mhO" id="5UA-bd-oBP"/>
+                        <outlet property="scoreLabel" destination="1zs-Vr-2B4" id="1Oz-Ww-V7G"/>
                         <outlet property="trueButton" destination="oVw-Hl-IRe" id="TEV-8Z-TS0"/>
                     </connections>
                 </viewController>
