@@ -41,6 +41,11 @@ extension FlashcardViewController: UIPageViewControllerDataSource {
         }
         if let cardViewController = storyboard?.instantiateViewController(identifier: ViewControllerIdent.flashcardViewController) as? CardViewController {
             cardViewController.maindata = self.maindata
+            
+            guard maindata.words.count > index else{
+                return nil
+            }
+            
             cardViewController.wordContent = maindata.words[index].content
             cardViewController.wordNoteContent = maindata.words[index].note
             cardViewController.index = index

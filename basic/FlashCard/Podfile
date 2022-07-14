@@ -1,0 +1,26 @@
+# Uncomment the next line to define a global platform for your project
+ platform :ios, '13.0'
+
+# ignore all warnings from all pods
+inhibit_all_warnings!
+
+target 'FlashCard' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+   pod 'Alamofire', '~> 5.1'
+   pod 'SwiftGen'
+   pod 'FBSDKLoginKit'
+   pod 'TwitterKit5'
+   pod 'UICKeyChainStore'
+   pod 'SwiftLint'
+   pod 'Kingfisher', '~> 5.0'
+   pod 'iCarousel'
+   pod 'lottie-ios'
+   pod 'UIScrollView-InfiniteScroll', '~> 1.1.0'
+   pod 'DZNEmptyDataSet'
+   pod 'Firebase/Analytics'
+   pod 'Firebase/Messaging'
+   pod 'MXSegmentedPager'
+
+end

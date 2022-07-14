@@ -13,8 +13,8 @@ class Flashcard : Object {
     @objc dynamic var learned: Int = 0
     @objc dynamic var total: Int = 0
     @objc dynamic var color: String = ""
-    @objc dynamic var words: [Words]?
-}
+    let words = List<Words>()
+}	
 class Word {
     var remember : Bool = false
     var content: String = ""

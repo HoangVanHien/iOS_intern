@@ -161,7 +161,7 @@ public struct UICircularProgressRingFormatter: UICircularRingValueFormatter {
             if showFloatingPoint {
                 return String(format: "%.\(decimalPlaces)f", value) + "\(valueIndicator)"
             } else {
-                return "\(Int(value))\(valueIndicator)"
+                return "\(Int(value as? Double ?? 0))\(valueIndicator)"
             }
         }
     }
